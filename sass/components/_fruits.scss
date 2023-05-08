@@ -1,0 +1,21 @@
+.fruits {
+  display: flex;
+  justify-content: center;
+  margin: 140px auto;
+}
+.fruits-list {
+  display: flex;
+  gap: 50px;
+}
+.fruits-list__item--banana {
+  width: 665px;
+  height: 378px;
+  background: url(../../img/fruits-banana.png), #d4d4d4;
+  border-radius: 30px;
+}
+.fruits-list__item--peach {
+  width: 665px;
+  height: 378px;
+  background: url(../../img/fruits-peach.png), #d4d4d4;
+  border-radius: 30px;
+}
