@@ -2,9 +2,111 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f9f8f8;
 }
 .about-main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 130px;
+  padding-bottom: 140px;
+}
+.about-picture {
+  width: 675px;
+  height: 642px;
+  background-image: url(../../img/about-main-picture.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+}
+.about-list__description--organic {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: url(../../img/about-organic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.about-list__description--quality {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: url(../../img/about-quality.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.about-description {
+  width: 675px;
+  margin-left: 30px;
+}
+.about-description__subtitle {
+  font-family: 'Yellowtail';
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #7eb693;
+}
+.about-description__title {
+  width: 521px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274c5b;
+}
+.about-description__text {
+  margin-bottom: 56px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: rgba(82, 92, 96, 0.8);
+}
+
+.about-list__item {
+  display: flex;
+  margin-bottom: 30px;
+}
+.about-list__title {
+  margin-left: 20px;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.36px;
+  color: #274c5b;
+}
+.about-list__description {
+  margin-left: 20px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: rgba(82, 92, 96, 0.8);
+}
+.about-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 199px;
+  height: 82px;
+  background: #274c5b;
+  border: 1px solid #274c5b;
+  border-radius: 16px;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.6px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.arrow-margin {
+  margin-left: 25px;
+  margin-right: 0px;
 }

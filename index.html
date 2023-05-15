@@ -5,12 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&family=Yellowtail&display=swap"
     rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="stylesheet" href="./css/main.min.css">
   <title>homework11-exam</title>
 </head>
@@ -28,7 +30,7 @@
             <li class="pages__item">About Us</li>
             <li class="pages__item">Shop</li>
             <li class="pages__item">Pages</li>
-            <li class="pages__item">Contact Us</li>
+            <li class="pages__item last">Contact Us</li>
           </ul>
         </nav>
         <div class="frame">
@@ -45,7 +47,7 @@
           <h4 class="hero-main__subtitle">Made with nature</h4>
           <h1 class="hero-main__title">Welcome to the world of nature and organic.</h1>
           <button class="hero-main__button">Explore Now
-            <img class="arrow-right"></img>
+            <div class="arrow-right"></div>
           </button>
         </div>
       </div>
@@ -55,12 +57,12 @@
       <div class="container">
         <ul class="fruits-list">
           <li class="fruits-list__item--banana">
-            <p class="fruits-list__title">Natural!!</p>
-            <p class="fruits-list__description">Get Garden Fresh Fruits</p>
+            <p class="fruits-list__title--banana">Natural!!</p>
+            <p class="fruits-list__description--banana">Get Garden Fresh Fruits</p>
           </li>
           <li class="fruits-list__item--peach">
-            <p class="fruits-list__title">Offer!!</p>
-            <p class="fruits-list__description">Get 10% off on Vegetables</p>
+            <p class="fruits-list__title--peach">Offer!!</p>
+            <p class="fruits-list__description--peach">Get 10% off on Vegetables</p>
           </li>
         </ul>
       </div>
@@ -70,7 +72,6 @@
       <div class="container">
         <div class="about-main">
           <div class="about-picture">
-            <img src="./img/about-main-picture.jpg" alt="about-main-picture">
           </div>
           <div class="about-description">
             <p class="about-description__subtitle">About Us</p>
@@ -80,24 +81,27 @@
               customers a healthy chemical-free meal for perfect nutrition.</p>
             <ul class="about-list">
               <li class="about-list__item">
-                <h5 class="about-list__title">Organic Foods Only</h5>
-                <p class="about-list__description">
-                  <span><img src="./img/about-organic.svg" alt="organic"></span>
-                  Product that you ordered will be verified that we have or not if have we will start to move on with
-                  the next step.
-                </p>
+                <span class="about-list__description--organic"></span>
+                <div>
+                  <h5 class="about-list__title">Organic Foods Only</h5>
+                  <p class="about-list__description">
+                    Product that you ordered will be verified that we have or not if have we will start to move on with
+                    the next step.
+                  </p>
+                </div>
               </li>
               <li class="about-list__item">
-                <h5 class="about-list__title">Quality Standards</h5>
-
-                <p class="about-list__description">
-                  <span><img src="./img/about-quality.svg" alt="quality"></span>
-                  Once your product is packed it will be delivered to your nearby
-                  locality you can directly visit the to buy the product.
-                </p>
+                <span class="about-list__description--quality"></span>
+                <div>
+                  <h5 class="about-list__title">Quality Standards</h5>
+                  <p class="about-list__description">
+                    Once your product is packed it will be delivered to your nearby
+                    locality you can directly visit the to buy the product.
+                  </p>
+                </div>
               </li>
             </ul>
-            <button class="about-button arrow-right">Shop Now</button>
+            <button class="about-button">Shop Now<div class="arrow-right arrow-margin"></div></button>
           </div>
         </div>
       </div>
@@ -106,8 +110,8 @@
     <section class="products">
       <div class="container">
         <div class="products-main">
-          <h5 class="products-main__subtitle"></h5>
-          <h2 class="products-main__title"></h2>
+          <h5 class="products-main__subtitle">Organic</h5>
+          <h2 class="products-main__title">Our Products</h2>
           <ul class="products-list">
             <li class="products-list__item">
               <a href="#" class="products-list__link">
@@ -196,8 +200,8 @@
         <div class="testimonial-main">
           <h5 class="testimonial-main__subtitle">Testimonial</h5>
           <h2 class="testimonial-main__title">What Our Customer Saying?</h2>
-          <img src="./img/sara-taylor.png" alt="sara-taylor" width="115px" height="115px">
-          <div class="products-list__stars"></div>
+          <div class="sara-taylor"><img src="./img/sara-taylor.png" alt="sara-taylor"></div>
+          <div class="testimonial-main__stars"></div>
           <p class="testimonial-main__description">The quality of organic produce is extremely high, the service is
             second to none and the taste of the food
           </p>
