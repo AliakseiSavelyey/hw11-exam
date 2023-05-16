@@ -11,13 +11,27 @@
   justify-content: center;
   align-items: center;
 }
+.subscribe-main form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .subscribe-main__btn {
   width: 197px;
   height: 82px;
   margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #274c5b;
   border: 1px solid #274c5b;
   border-radius: 16px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.36px;
+  color: #ffffff;
 }
 .subscribe input {
   background: #ffffff;
