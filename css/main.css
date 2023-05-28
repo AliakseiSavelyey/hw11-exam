@@ -435,7 +435,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 130px;
 }
 
 .products-main {
@@ -465,6 +465,7 @@ img {
 }
 
 .products-main__title {
+  margin-bottom: 40px;
   font-weight: 700;
   font-size: 45px;
   line-height: 58px;
@@ -475,9 +476,6 @@ img {
 }
 
 .products-list {
-  height: 1100px;
-  padding-left: 5px;
-  padding-right: 5px;
   margin-left: -20px;
   margin-top: -20px;
   display: -webkit-box;
@@ -496,38 +494,44 @@ img {
 .products-list__item {
   background-color: #f9f8f8;
   border-radius: 30px;
-  -ms-flex-preferred-size: calc(33.3333333333% - 20px);
-      flex-basis: calc(33.3333333333% - 20px);
+  -ms-flex-preferred-size: calc(33.3333333333% - 60px);
+      flex-basis: calc(33.3333333333% - 60px);
+  padding-left: 25px;
   margin-left: 20px;
   margin-top: 20px;
 }
 
 .products-list__link {
   display: block;
+  padding-top: 31px;
 }
 
 .products-list__button {
   width: 118px;
   height: 37px;
-  margin-top: 30px;
-  margin-left: 30px;
   background: #274c5b;
   color: #fff;
   border-radius: 8px;
 }
 
+.products-list__image {
+  width: 405px;
+  height: 385px;
+  margin-bottom: 20px;
+}
+
 .products-list__description {
-  margin-top: 20px;
-  padding-bottom: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
+  padding-bottom: 11px;
+  margin-bottom: 10px;
   border-bottom: 2px solid rgba(218, 212, 212, 0.6);
+  font-size: 22px;
+  line-height: 1.6;
+  letter-spacing: 0.36px;
+  color: #274c5b;
 }
 
 .products-list__pay {
-  margin-top: 10px;
-  padding-bottom: 25px;
-  margin-left: 30px;
+  padding-bottom: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -537,6 +541,26 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.products-list__price {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: 0.36px;
+  color: #274c5b;
+}
+
+.products-list__sale {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.9;
+  letter-spacing: 0.36px;
+  text-decoration-line: line-through;
+  color: #b8b8b8;
 }
 
 .products-list__stars {
@@ -550,8 +574,7 @@ img {
 }
 
 .testimonial {
-  margin-top: 120px;
-  height: 1248px;
+  padding-bottom: 155px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -583,6 +606,7 @@ img {
 }
 
 .testimonial-main__subtitle {
+  margin-top: 135px;
   font-family: "Yellowtail";
   font-size: 36px;
   line-height: 65px;
@@ -605,11 +629,13 @@ img {
 .sara-taylor {
   width: 115px;
   height: 115px;
+  margin-top: 58px;
 }
 
 .testimonial-main__stars {
   width: 123px;
   height: 27px;
+  margin-top: 19px;
   background-image: url(../../img/stars.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -617,6 +643,8 @@ img {
 }
 
 .testimonial-main__description {
+  width: 942px;
+  margin-top: 30px;
   font-family: "Open Sans";
   font-size: 18px;
   line-height: 32px;
@@ -626,6 +654,7 @@ img {
 }
 
 .testimonial-main__name {
+  margin-top: 25px;
   font-weight: 700;
   font-size: 26px;
   line-height: 34px;
@@ -635,9 +664,9 @@ img {
 }
 
 .testimonial-main__consumer {
-  width: 80%;
+  width: 84%;
   border-bottom: 1px solid #000;
-  padding-bottom: 80px;
+  padding-bottom: 93px;
   font-family: "Open Sans";
   font-size: 14px;
   line-height: 27px;
@@ -650,12 +679,13 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 25px;
+  gap: 38px;
+  margin-top: 105px;
 }
 
 .testimonial-list__item {
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   outline: 6px solid #7eb693;
   border: 10px solid #fff;
@@ -695,7 +725,7 @@ img {
 }
 
 .offer {
-  height: 1060px;
+  padding-bottom: 160px;
   background-color: #274c5b;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -725,9 +755,17 @@ img {
 }
 
 .offer-main__description {
+  width: 1380px;
+  padding-top: 140px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .offer-main__title {
@@ -749,8 +787,12 @@ img {
 }
 
 .offer-main__btn {
-  width: 267px;
+  position: relative;
+  width: 265px;
   height: 82px;
+  margin-right: 10px;
+  margin-top: 45px;
+  padding-right: 41px;
   background: #efd372;
   border: 1px solid #efd372;
   border-radius: 16px;
@@ -763,12 +805,50 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274c5b;
 }
 
 .offer-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 45px;
+  gap: 20px;
+}
+
+.offer-list__item {
+  background-color: #f9f8f8;
+  border-radius: 30px;
+  padding-left: 30px;
+}
+
+.offer-list__link {
+  display: block;
+  padding-top: 31px;
+  padding-right: 10px;
+}
+
+.arrow-right {
+  position: absolute;
+  right: 10px;
+}
+
+.offer-list__image {
+  width: 405px;
+  height: 385px;
+  margin-bottom: 12px;
 }
 
 .farm {
@@ -824,7 +904,7 @@ img {
 }
 
 .farm-description h2 {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   font-weight: 700;
   font-size: 44px;
   line-height: 58px;
@@ -834,6 +914,7 @@ img {
 }
 
 .farm-description h4 {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 23px;
   line-height: 32px;
@@ -843,6 +924,7 @@ img {
 }
 
 .farm-description--text {
+  margin-bottom: 5px;
   font-family: "Open Sans";
   font-size: 18px;
   line-height: 32px;
@@ -910,6 +992,13 @@ img {
   background-position: center;
 }
 
+.cookies {
+  background-image: url(../../img/cookies.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
 .carousel-list__btn {
   position: absolute;
   top: 50%;
@@ -930,21 +1019,16 @@ img {
 }
 
 .subscribe {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: block;
+  background-image: url(../../img/newsletter.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .subscribe-main {
-  max-width: 1380px;
-  height: 320px;
-  margin-right: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -956,7 +1040,19 @@ img {
           align-items: center;
 }
 
-.subscribe-main form {
+.subscribe-main__title {
+  width: 325px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.subscribe-main__form {
+  height: 320px;
+  margin-left: 340px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -966,6 +1062,15 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.subscribe-main__form input {
+  width: 350px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 16px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .subscribe-main__btn {
@@ -992,64 +1097,63 @@ img {
   color: #ffffff;
 }
 
-.subscribe input {
-  background: #ffffff;
-  border: 1px solid #cccccc;
-  border-radius: 16px;
-  padding: 32px 100px 32px 30px;
-}
-
 .subscribe input::-webkit-input-placeholder {
+  padding-left: 30px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29px;
+  line-height: 1.6;
   letter-spacing: 0.36px;
   color: #525c60;
 }
 
 .subscribe input::-moz-placeholder {
+  padding-left: 30px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29px;
+  line-height: 1.6;
   letter-spacing: 0.36px;
   color: #525c60;
 }
 
 .subscribe input:-ms-input-placeholder {
+  padding-left: 30px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29px;
+  line-height: 1.6;
   letter-spacing: 0.36px;
   color: #525c60;
 }
 
 .subscribe input::-ms-input-placeholder {
+  padding-left: 30px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29px;
+  line-height: 1.6;
   letter-spacing: 0.36px;
   color: #525c60;
 }
 
 .subscribe input::placeholder {
+  padding-left: 30px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29px;
+  line-height: 1.6;
   letter-spacing: 0.36px;
   color: #525c60;
 }
 
 .footer {
+  padding-top: 55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1069,12 +1173,15 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
 }
 
 .contact-list {
+  width: 270px;
+  padding-right: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1090,7 +1197,6 @@ img {
           flex-direction: column;
   border-right: 1px solid #d5d5d5;
   gap: 40px;
-  padding-right: 20px;
 }
 
 .contact-list h3,
@@ -1152,8 +1258,8 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-right: 50px;
-  padding-left: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .contact-list__center--text {
@@ -1210,6 +1316,8 @@ img {
 }
 
 .utility-list {
+  width: 335px;
+  padding-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1225,7 +1333,6 @@ img {
           flex-direction: column;
   border-left: 1px solid #d5d5d5;
   gap: 25px;
-  padding-left: 20px;
 }
 
 .utility-list__item {

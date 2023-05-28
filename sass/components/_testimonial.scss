@@ -1,6 +1,5 @@
 .testimonial {
-  margin-top: 120px;
-  height: 1248px;
+  padding-bottom: 155px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +15,7 @@
   flex-wrap: wrap;
 }
 .testimonial-main__subtitle {
+  margin-top: 135px;
   font-family: 'Yellowtail';
   font-size: 36px;
   line-height: 65px;
@@ -36,16 +36,22 @@
 .sara-taylor {
   width: 115px;
   height: 115px;
+  margin-top: 58px;
 }
 .testimonial-main__stars {
   width: 123px;
   height: 27px;
+  margin-top: 19px;
+
   background-image: url(../../img/stars.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .testimonial-main__description {
+  width: 942px;
+  margin-top: 30px;
   font-family: 'Open Sans';
   font-size: 18px;
   line-height: 32px;
@@ -54,6 +60,8 @@
   color: #525c60;
 }
 .testimonial-main__name {
+  margin-top: 25px;
+
   font-weight: 700;
   font-size: 26px;
   line-height: 34px;
@@ -62,9 +70,9 @@
   color: #274c5b;
 }
 .testimonial-main__consumer {
-  width: 80%;
+  width: 84%;
   border-bottom: 1px solid #000;
-  padding-bottom: 80px;
+  padding-bottom: 93px;
   font-family: 'Open Sans';
   font-size: 14px;
   line-height: 27px;
@@ -74,11 +82,12 @@
 }
 .testimonial-list {
   display: flex;
-  gap: 25px;
+  gap: 38px;
+  margin-top: 105px;
 }
 .testimonial-list__item {
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   outline: 6px solid #7eb693;
   border: 10px solid #fff;
