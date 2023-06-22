@@ -6,14 +6,16 @@
   padding-bottom: 85px;
 }
 .footer-main {
+  width: 1380px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+
   align-items: flex-start;
   gap: 20px;
 }
 .contact-list {
-  width: 270px;
   padding-right: 20px;
+  margin-left: 85px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -54,15 +56,13 @@
   flex-direction: column;
 }
 .contact-list__center {
+  width: 670px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 .contact-list__center--text {
-  width: 567px;
   margin-top: 45px;
   margin-bottom: 60px;
   text-align: center;
@@ -103,6 +103,7 @@
 }
 .utility-list {
   width: 335px;
+  margin-right: 20px;
   padding-left: 20px;
   display: flex;
   justify-content: center;

@@ -1167,12 +1167,13 @@ img {
 }
 
 .footer-main {
+  width: 1380px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -1180,8 +1181,8 @@ img {
 }
 
 .contact-list {
-  width: 270px;
   padding-right: 20px;
+  margin-left: 85px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1245,6 +1246,7 @@ img {
 }
 
 .contact-list__center {
+  width: 670px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1258,12 +1260,9 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 .contact-list__center--text {
-  width: 567px;
   margin-top: 45px;
   margin-bottom: 60px;
   text-align: center;
@@ -1317,6 +1316,7 @@ img {
 
 .utility-list {
   width: 335px;
+  margin-right: 20px;
   padding-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
