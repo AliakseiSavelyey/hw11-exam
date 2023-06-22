@@ -1,0 +1,59 @@
+.fruits {
+  display: flex;
+  justify-content: center;
+  margin: 140px auto;
+}
+.fruits-list {
+  display: flex;
+  gap: 50px;
+}
+.fruits-list__item--banana {
+  width: 665px;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../../img/fruits-banana.png), #d4d4d4;
+  border-radius: 30px;
+}
+.fruits-list__title--banana {
+  padding-left: 55px;
+  font-family: 'Yellowtail';
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+}
+.fruits-list__description--banana {
+  width: 215px;
+  padding-left: 55px;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+}
+.fruits-list__item--peach {
+  width: 665px;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../../img/fruits-peach.png), #d4d4d4;
+  border-radius: 30px;
+}
+.fruits-list__title--peach {
+  padding-left: 55px;
+  font-family: 'Yellowtail';
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7eb693;
+}
+.fruits-list__description--peach {
+  width: 264px;
+  padding-left: 55px;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+  color: #274c5b;
+}

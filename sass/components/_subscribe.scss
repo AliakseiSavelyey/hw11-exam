@@ -1,0 +1,68 @@
+.subscribe {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: block;
+  background-image: url(../../img/newsletter.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.subscribe-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-main__title {
+  width: 325px;
+
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.subscribe-main__form {
+  height: 320px;
+  margin-left: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-main__form input {
+  width: 350px;
+  // margin-right: 20px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 16px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.subscribe-main__btn {
+  width: 197px;
+  height: 82px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #274c5b;
+  border: 1px solid #274c5b;
+  border-radius: 16px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+}
+
+.subscribe input::placeholder {
+  padding-left: 30px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.36px;
+  color: #525c60;
+}

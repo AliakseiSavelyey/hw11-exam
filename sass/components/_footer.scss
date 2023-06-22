@@ -1,0 +1,121 @@
+.footer {
+  padding-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 85px;
+}
+.footer-main {
+  width: 1380px;
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: flex-start;
+  gap: 20px;
+}
+.contact-list {
+  padding-right: 20px;
+  margin-left: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  border-right: 1px solid #d5d5d5;
+  gap: 40px;
+}
+.contact-list h3,
+.utility-list h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: right;
+  letter-spacing: 0.36px;
+  color: #274c5b;
+}
+.contact-list h6 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: 0.36px;
+  color: #525c60;
+}
+.contact-list p {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 29px;
+  text-align: right;
+  letter-spacing: 0.36px;
+  color: #525c60;
+}
+.contact-list__item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.contact-list__center {
+  width: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-list__center--text {
+  margin-top: 45px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #525c60;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.social-list__link {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #eff6f1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.facebook {
+  background-image: url(../../img/facebook.svg);
+}
+.twitter {
+  background-image: url(../../img/twitter.svg);
+}
+.instagram {
+  background-image: url(../../img/instagram.svg);
+}
+.pres {
+  background-image: url(../../img/pres.svg);
+}
+.utility-list {
+  width: 335px;
+  margin-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  border-left: 1px solid #d5d5d5;
+  gap: 25px;
+}
+.utility-list__item {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.36px;
+  color: #525c60;
+}
