@@ -1,1 +1,1 @@
-practice adaptive layout
+practice pixel-perfect
